@@ -22,7 +22,9 @@ function moveToSelected(element) {
   $(prevSecond).removeClass().addClass("prevLeftSecond");
 
   $(nextSecond).nextAll().removeClass().addClass('hideRight');
-  $(prevSecond).prevAll().removeClass().addClass('hideLeft');
+  $(prevSecond).nextAll().removeClass().addClass('hideLeft');
+
+
 
 }
 
