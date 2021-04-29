@@ -106,7 +106,7 @@ iframe {
   width: 100%;
   min-height: 100vh;
   background: #fff;
-  
+
 
   display: -webkit-box;
   display: -webkit-flex;
@@ -226,9 +226,9 @@ tbody tr:hover {
   table > *, table tr, table td, table th {
     display: block;
   }
-  table thead {
+  /*table thead {
     display: none;
-  }
+  }*/
   table tbody tr {
     height: auto;
     padding: 37px 0;
