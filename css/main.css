@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: OpenSans-Regular;
-  src: url('../fonts/OpenSans/OpenSans-Regular.ttf'); 
+  src: url('../fonts/OpenSans/OpenSans-Regular.ttf');
 }
 
 
@@ -14,8 +14,8 @@
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
 * {
-	margin: 0px; 
-	padding: 0px; 
+	margin: 0px;
+	padding: 0px;
 	box-sizing: border-box;
 }
 
@@ -169,7 +169,7 @@ table td.r, table th.r {
 .table100-head th{
   font-family: OpenSans-Regular;
   font-size: 18px;
-  color: #fff;
+  color: #cc0000;
   line-height: 1.2;
   font-weight: unset;
 }
