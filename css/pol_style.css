@@ -86,7 +86,7 @@ body {
   box-sizing: border-box;
 }
 
-html, body {
+/*html, body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -106,7 +106,7 @@ body {
     background-color: #428aa6;
   }
 }
-
+*/
 input[type=radio] {
   display: none;
 }
