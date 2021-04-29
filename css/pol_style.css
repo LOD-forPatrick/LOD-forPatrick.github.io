@@ -115,7 +115,7 @@ body {
   width: 200px;
 }
 #carousel div.hideLeft p {
-  width: 200px;
+  display:none;
 }
 #carousel div.hideRight {
   left: 100%;
@@ -126,7 +126,7 @@ body {
   width: 200px;
 }
 #carousel div.hideRight p {
-  width: 200px;
+  display:none;
 }
 #carousel div.prev {
   z-index: 5;
@@ -137,7 +137,7 @@ body {
   width: 300px;
 }
 #carousel div.prev p {
-  width: 300px;
+  display:none;
 }
 #carousel div.prevLeftSecond {
   z-index: 4;
@@ -149,7 +149,7 @@ body {
   width: 200px;
 }
 #carousel div.prevLeftSecond p {
-  width: 200px;
+  display:none;
 }
 #carousel div.selected {
   z-index: 10;
@@ -165,7 +165,7 @@ body {
   width: 300px;
 }
 #carousel div.next p {
-  width: 300px;
+  display:none;
 }
 #carousel div.nextRightSecond {
   z-index: 4;
@@ -177,7 +177,7 @@ body {
   width: 200px;
 }
 #carousel div.nextRightSecond p {
-  width: 200px;
+  display:none;
 }
 .buttons {
   position: fixed;
