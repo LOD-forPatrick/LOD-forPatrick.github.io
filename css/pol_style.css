@@ -98,7 +98,11 @@ body {
   transition: transform 1s, left 1s, opacity 1s, z-index 0s;
   opacity: 1;
 }
-#carousel div img + p {
+#carousel div img {
+  width: 400px;
+  transition: width 1s;
+}
+#carousel div p {
   width: 400px;
   transition: width 1s;
 }
@@ -107,24 +111,33 @@ body {
   opacity: 0;
   transform: translateY(50%) translateX(-50%);
 }
-#carousel div.hideLeft img + p {
+#carousel div.hideLeft img {
   width: 200px;
+}
+#carousel div.hideLeft p {
+  display:none;
 }
 #carousel div.hideRight {
   left: 100%;
   opacity: 0;
   transform: translateY(50%) translateX(-50%);
 }
-#carousel div.hideRight img + p {
+#carousel div.hideRight img {
   width: 200px;
+}
+#carousel div.hideRight p {
+  display:none;
 }
 #carousel div.prev {
   z-index: 5;
   left: 30%;
   transform: translateY(50px) translateX(-50%);
 }
-#carousel div.prev img + p {
+#carousel div.prev img {
   width: 300px;
+}
+#carousel div.prev p {
+  display:none;
 }
 #carousel div.prevLeftSecond {
   z-index: 4;
@@ -132,8 +145,11 @@ body {
   transform: translateY(50%) translateX(-50%);
   opacity: 0.7;
 }
-#carousel div.prevLeftSecond img + p {
+#carousel div.prevLeftSecond img {
   width: 200px;
+}
+#carousel div.prevLeftSecond p {
+  display:none;
 }
 #carousel div.selected {
   z-index: 10;
@@ -145,8 +161,11 @@ body {
   left: 70%;
   transform: translateY(50px) translateX(-50%);
 }
-#carousel div.next img + p {
+#carousel div.next img {
   width: 300px;
+}
+#carousel div.next p {
+  display:none;
 }
 #carousel div.nextRightSecond {
   z-index: 4;
@@ -154,10 +173,12 @@ body {
   transform: translateY(50%) translateX(-50%);
   opacity: 0.7;
 }
-#carousel div.nextRightSecond img + p {
+#carousel div.nextRightSecond img {
   width: 200px;
 }
-
+#carousel div.nextRightSecond p {
+  display:none;
+}
 .buttons {
   position: fixed;
   left: 50%;
