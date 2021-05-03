@@ -5,6 +5,7 @@
   background: linear-gradient(to bottom, #000000 0%, #660000 25%, #980000 100%);
 }
 .carousel-cards {
+  width: 100%;
   height: 100%;
   margin: 2rem 0;
   padding: 0;
