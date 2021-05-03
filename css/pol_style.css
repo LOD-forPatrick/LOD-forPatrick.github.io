@@ -14,7 +14,7 @@
 
 #carousel {
   position: relative;
-  height: 400px;
+  height: 600px;
   top: 50%;
   overflow: hidden;
 }
@@ -22,6 +22,7 @@
   position: absolute;
   transition: transform 1s, left 1s, opacity 1s, z-index 0s;
   opacity: 1;
+  color:white;
 }
 #carousel div img {
   width: 400px;
@@ -109,6 +110,12 @@
   left: 50%;
   transform: translateX(-50%);
   bottom: 10px;
+}
+#carousel a{
+  color:white;
+}
+#carousel a:hover{
+  color:#cb1515;
 }
 /*<section class="wrapper">
     <div class="container-fostrap">
