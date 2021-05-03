@@ -1,6 +1,5 @@
 .text-red {
   color: #ff0000;
-  -webkit-text-fill-color: transparent;
 }
 .items-section{
   background: linear-gradient(to bottom, #000000 0%, #660000 25%, #980000 100%);
