@@ -27,6 +27,7 @@
 #carousel div img {
   width: 400px;
   transition: width 1s;
+  margin: 0 5px;
 }
 #carousel div p {
   width: 400px;
