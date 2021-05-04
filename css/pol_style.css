@@ -2,8 +2,17 @@
   font-family: GloriaHallelujah;
   src: url(Gloria_Hallelujah/GloriaHallelujah-Regular.ttf)
 }
+.masthead h1{
+  font-family:GloriaHallelujah;
+}
+.secondary-page h1{
+  background: #fa851e;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
 .text-red {
-  color: #ff0000;
+  color: #d3121d;
 }
 .items-section{
   background: linear-gradient(to bottom, #000000 0%, #660000 25%, #980000 100%);
@@ -119,7 +128,7 @@
   color:#cccccc;
 }
 #carousel a:hover{
-  color:#cb1515;
+  color:#d3121d;
 }
 .rdf-section{
   padding-top: 10rem;
