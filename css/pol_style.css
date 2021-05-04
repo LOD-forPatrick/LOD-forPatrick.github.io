@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Gloria Hallelujah;
+  src: url(assets/css/Gloria_Hallelujah/GloriaHallelujah-Regular.ttf)
+}
 .text-red {
   color: #ff0000;
 }
