@@ -2,6 +2,15 @@
   font-family: GloriaHallelujah;
   src: url(Gloria_Hallelujah/GloriaHallelujah-Regular.ttf)
 }
+.masthead h1{
+  font-family:GloriaHallelujah;
+}
+.secondary-page h1{
+  background: #fa851e;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
 .text-red {
   color: #d3121d;
 }
