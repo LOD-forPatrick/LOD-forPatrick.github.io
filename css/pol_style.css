@@ -11,6 +11,9 @@
   -webkit-background-clip: text;
           background-clip: text;
 }
+#intro p{
+  margin-bottom: 1rem;
+}
 .text-red {
   color: #d3121d;
 }
