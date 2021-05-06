@@ -95,7 +95,7 @@ iframe {
 
 /*//////////////////////////////////////////////////////////////////
 [ Table ]*/
-#itemstable table thead tr{
+.itemstable table thead tr{
   height: 60px;
   background: #fa851e;
 }
