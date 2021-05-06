@@ -15,7 +15,7 @@
 [ RESTYLE TAG ]*/
 * {
 	margin: 0px;
-	padding: 0px;
+	padding: 10px;
 	box-sizing: border-box;
 }
 
@@ -115,7 +115,7 @@ iframe {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 40px 30px;
+  padding: 33px 30px;
 }
 
 .wrap-table100 {
