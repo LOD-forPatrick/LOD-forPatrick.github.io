@@ -95,10 +95,7 @@ iframe {
 
 /*//////////////////////////////////////////////////////////////////
 [ Table ]*/
-.itemstable table thead tr{
-  height: 60px;
-  background: #fa851e;
-}
+
 
 .limiter {
   width: 100%;
