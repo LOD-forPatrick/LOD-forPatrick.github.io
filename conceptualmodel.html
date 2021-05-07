@@ -80,7 +80,7 @@
                 <p>The <i>"Who"</i>, which involves the concept of "Person" and "Corporate Body", results to be the broader category. The table reflects the reality of the situation, in which the role of governments, institutions and single actors makes the difference. The places linked to the production of the items and the building of Tora prison enter in the <i>"Where"</i> category. As for the <i>"When"</i>, it mainly depends on the specific release or display date of the objects, like the audios, the artworks and the website. The "Date" class has also the role of marking the starting period of the detention of Patrick Zaki, that has not yet an "endDate". In the <i>"What"</i> section, split into the five macro-categories of the items, we decided to deepen the details that characterized them. </p>
             </div>
           </div>
-          <div class="row mx-auto">
+          <div class="row mx-auto" style="background:white">
             <div class="col-lg-10 mx-auto">
               <!-- Nav tabs -->
               <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -112,35 +112,60 @@
 
               <!-- Tab panes -->
               <div class="tab-content">
-                <div class="tab-pane active" id="people" role="tabpanel" aria-labelledby="people-tab">
+                <div class="tab-pane fade show active" id="people" role="tabpanel" aria-labelledby="people-tab">
                   <table class="table table-striped">
                     <thead>
                       <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
-                        <th scope="col">Handle</th>
+                        <th scope="col">QUESTION</th>
+                        <th scope="col">PREDICATE</th>
+                        <th scope="col">MODEL</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
+                        <td>Whats is the title?</td>
+                        <td>dc:title</td>
+                        <td>Dublin Core</td>
                       </tr>
                       <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
+                        <td>What is the type?</td>
+                        <td>rdf:type</td>
+                        <td>RDF</td>
                       </tr>
-
                       <tr>
-                        <th scope="row">3</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
+                        <td>What is the genre of the artwork?</td>
+                        <td>schema:genre</td>
+                        <td>Schema.org</td>
+                      </tr>
+                      <tr>
+                        <td>What is written on the artwork?</td>
+                        <td>lido:inscriptionTranscription</td>
+                        <td>LIDO</td>
+                      </tr>
+                      <tr>
+                        <td>What is the subject?</td>
+                        <td>dc:subject</td>
+                        <td>Dublin Core</td>
+                      </tr>
+                      <tr>
+                        <td>Which language is used in the artwork?</td>
+                        <td>dc:language</td>
+                        <td>Dublin Core</td>
+                      </tr>
+                      <tr>
+                        <td>On which surface is the artwork displayed?</td>
+                        <td>schema:surface</td>
+                        <td>Schema.org</td>
+                      </tr>
+                      <tr>
+                        <td>What is the type of resource?</td>
+                        <td>modsrdf:typeOfResource</td>
+                        <td>MODS</td>
+                      </tr>
+                      <tr>
+                        <td>Which are the dimensions?</td>
+                        <td>lido:formatMeasurements</td>
+                        <td>LIDO</td>
                       </tr>
                     </tbody>
                     </table>
