@@ -16,9 +16,9 @@
         <link href="css/styles.css" rel="stylesheet" />
         <!-- Our CSS Stylesheet -->
         <link href="css/pol_style.css" rel="stylesheet" />
-        <!-- Style css Tables -->
+        <!-- Style css Tables
         <link href="css/main.css" rel="stylesheet" />
-        <link href="css/util.css" rel="stylesheet" />
+        <link href="css/util.css" rel="stylesheet" /> -->
     </head>
     <body>
         <!-- Navigation-->
@@ -413,6 +413,44 @@
                         <td>Which season of episodes does the item belong to?</td>
                         <td>schema:partOfSeason</td>
                         <td>Schema.org</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="tab-pane fade" id="website" role="tabpanel" aria-labelledby="website-tab">
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">QUESTION</th>
+                        <th scope="col">PREDICATE</th>
+                        <th scope="col">MODEL</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Whats is the name of the website?</td>
+                        <td>premis:originalName</td>
+                        <td>Premis</td>
+                      </tr>
+                      <tr>
+                        <td>What is the type of resource?</td>
+                        <td>rdf:type</td>
+                        <td>RDF</td>
+                      </tr>
+                      <tr>
+                        <td>What is the main purpose of the website?</td>
+                        <td>premis:purpose</td>
+                        <td>Premis</td>
+                      </tr>
+                      <tr>
+                        <td>What are the available languages of the website?</td>
+                        <td>dc:language</td>
+                        <td>Dublin Core</td>
+                      </tr>
+                      <tr>
+                        <td>What content is carried within the website?</td>
+                        <td>frbroo:R6_carries</td>
+                        <td>FRBRoo</td>
                       </tr>
                     </tbody>
                   </table>
