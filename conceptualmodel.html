@@ -77,7 +77,7 @@
                 <i>When</i>: Date <br>
                 <i>What</i>: Visual artwork, Audio object, Website, Written document, Event </p>
 
-                <p>The <i>"Who"</i>, which involves the concept of "Person" and "Corporate Body", results to be the broader category. The table reflects the reality of the situation, in which the role of governments, institutions and single actors makes the difference. The places linked to the production of the items and the building of Tora prison enter in the <i>"Where"</i> category. As for the <i>"When"</i>, it mainly depends on the specific release or display date of the objects, like the audios, the artworks and the website. The "Date" class has also the role of marking the starting period of the detention of Patrick Zaki, that has not yet an "endDate". In the <i>"What"</i> section, split into the five macro-categories of the items, we decided to deepen the details that characterized them. </p>
+                <p>The <i>"Who"</i>, which involves the concept of "Person" and "Corporate Body", results to be the broader category. The table reflects the reality of the situation, in which the role of governments, institutions and single actors makes the difference. The place linked to the production of the items and the building of Tora prison enter in the <i>"Where"</i> category. As for the <i>"When"</i>, it mainly depends on the specific release or display date of the objects, like the audios, the artworks and the website. The "Date" class has also the role of marking the starting period of the detention of Patrick Zaki, that has not yet an "endDate". In the <i>"What"</i> section, split into the five macro-categories of the items, we decided to deepen the details that characterized them. </p>
             </div>
           </div>
           <div class="row mx-auto" style="background:white">
@@ -91,7 +91,7 @@
                   <button class="nav-link" id="date-tab" data-bs-toggle="tab" data-bs-target="#date" type="button" role="tab" aria-controls="date" aria-selected="false">Date</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="places-tab" data-bs-toggle="tab" data-bs-target="#places" type="button" role="tab" aria-controls="places" aria-selected="false">Places</button>
+                  <button class="nav-link" id="place-tab" data-bs-toggle="tab" data-bs-target="#place" type="button" role="tab" aria-controls="place" aria-selected="false">Place</button>
                 </li>
                 <li class="nav-item" role="presentation">
                   <button class="nav-link" id="visual-artwork-tab" data-bs-toggle="tab" data-bs-target="#visual-artwork" type="button" role="tab" aria-controls="visual-artwork" aria-selected="false">Visual artwork</button>
@@ -113,6 +113,205 @@
               <!-- Tab panes -->
               <div class="tab-content">
                 <div class="tab-pane fade show active" id="people" role="tabpanel" aria-labelledby="people-tab">
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">QUESTION</th>
+                        <th scope="col">PREDICATE</th>
+                        <th scope="col">MODEL</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Who is the author/creator of the item?</td>
+                        <td>dc:creator</td>
+                        <td>Dublin Core</td>
+                      </tr>
+                      <tr>
+                        <td>Who is the composer of the song?</td>
+                        <td>mo:composer</td>
+                        <td>Music Ontology</td>
+                      </tr>
+                      <tr>
+                        <td>Who is the partecipant?</td>
+                        <td>schema:partecipant</td>
+                        <td>Schema.org</td>
+                      </tr>
+                      <tr>
+                        <td>Who is the contributor of the item?</td>
+                        <td>schema:contributor</td>
+                        <td>Schema.org</td>
+                      </tr>
+                      <tr>
+                        <td>What is the performer of the song?</td>
+                        <td>mo:performer</td>
+                        <td>Music Ontology</td>
+                      </tr>
+                      <tr>
+                        <td>Who is the copyright holder?</td>
+                        <td>schem:copyrightHolder</td>
+                        <td>Schema.org</td>
+                      </tr>
+                      <tr>
+                        <td>Who is the publisher?</td>
+                        <td>dcterms:publisher</td>
+                        <td>DCTerms</td>
+                      </tr>
+                      <tr>
+                        <td>Who is the illustrator?</td>
+                        <td>schema:illustrator</td>
+                        <td>Schema.org</td>
+                      </tr>
+                      <tr>
+                        <td>Who is depicted in the artwork?</td>
+                        <td>crm:P62_depicts</td>
+                        <td>CIDOC-CRM</td>
+                      </tr>
+                      <tr>
+                        <td>Who is the data provider?</td>
+                        <td>edm:dataProvider</td>
+                        <td>EDM</td>
+                      </tr>
+                      <tr>
+                        <td>Who is the director of the establishment?</td>
+                        <td>schema:director</td>
+                        <td>Schema.org</td>
+                      </tr>
+                      <tr>
+                        <td>Who is the recipient of the letter?</td>
+                        <td>schema:recipient</td>
+                        <td>Schema.org</td>
+                      </tr>
+                      <tr>
+                        <td>Who is the organizer of the event?</td>
+                        <td>schema:organizer</td>
+                        <td>Schema.org</td>
+                      </tr>
+                      <tr>
+                        <td>Who is member of the association?</td>
+                        <td>schema:member</td>
+                        <td>Schema.org</td>
+                      </tr>
+                      <tr>
+                        <td>Who is the governing body of the Country?</td>
+                        <td>dbo:governingBody</td>
+                        <td>DBpedia</td>
+                      </tr>
+                      <tr>
+                        <td>Who manages the website?</td>
+                        <td>dbo:management</td>
+                        <td>DBpedia</td>
+                      </tr>
+                      <tr>
+                        <td>Who is related to the item?</td>
+                        <td>premis:relationship</td>
+                        <td>Premis</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="tab-pane fade" id="date" role="tabpanel" aria-labelledby="date-tab">
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">QUESTION</th>
+                        <th scope="col">PREDICATE</th>
+                        <th scope="col">MODEL</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>When was the item first released?</td>
+                        <td>dbo:releaseDate</td>
+                        <td>DBpedia</td>
+                      </tr>
+                      <tr>
+                        <td>When was the item displayed?</td>
+                        <td>lido:displayDate</td>
+                        <td>LIDO</td>
+                      </tr>
+                      <tr>
+                        <td>When did the event start?</td>
+                        <td>premis:startDate</td>
+                        <td>Premis</td>
+                      </tr>
+                      <tr>
+                        <td>When was the building created?</td>
+                        <td>gndo:dateOfEstablishment</td>
+                        <td>GND Ontology</td>
+                      </tr>
+                      <tr>
+                        <td>When was the letter sent?</td>
+                        <td>schema:dateSent</td>
+                        <td>Schema.org</td>
+                      </tr>
+                      <tr>
+                        <td>What is the duration of the audio object?</td>
+                        <td>schema:duration</td>
+                        <td>Schema.org</td>
+                      </tr>
+                      <tr>
+                        <td>When was the last update made?</td>
+                        <td>dc:modified</td>
+                        <td>Dublin Core</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="tab-pane fade" id="place" role="tabpanel" aria-labelledby="place-tab">
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">QUESTION</th>
+                        <th scope="col">PREDICATE</th>
+                        <th scope="col">MODEL</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>In which country is the item located?</td>
+                        <td>dcterms:spatial</td>
+                        <td>DCTerms</td>
+                      </tr>
+                      <tr>
+                        <td>In which city is the item located?</td>
+                        <td>dcterms:spatial</td>
+                        <td>DCTerms</td>
+                      </tr>
+                      <tr>
+                        <td>Which place is a subpart of the item?</td>
+                        <td>schema:containsPlace</td>
+                        <td>Schema.org</td>
+                      </tr>
+                      <tr>
+                        <td>At which url can the item be found?</td>
+                        <td>schema:url</td>
+                        <td>Schema.org</td>
+                      </tr>
+                      <tr>
+                        <td>At which address is the website stored?</td>
+                        <td>premis:storedAt</td>
+                        <td>Premis</td>
+                      </tr>
+                      <tr>
+                        <td>Where was the item originally displayed?</td>
+                        <td>schema:locationCreated</td>
+                        <td>Schema.org</td>
+                      </tr>
+                      <tr>
+                        <td>Which country produced the item?</td>
+                        <td>modsrdf:originInfo</td>
+                        <td>MODS</td>
+                      </tr>
+                      <tr>
+                        <td>Which platform supports the item?</td>
+                        <td>mo:publishingLocation</td>
+                        <td>Music Ontology</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="tab-pane fade" id="visual-artwork" role="tabpanel" aria-labelledby="visual-artwork-tab">
                   <table class="table table-striped">
                     <thead>
                       <tr>
@@ -168,13 +367,138 @@
                         <td>LIDO</td>
                       </tr>
                     </tbody>
-                    </table>
-                  </div>
-                <div class="tab-pane" id="date" role="tabpanel" aria-labelledby="date-tab">...</div>
-                <div class="tab-pane" id="places" role="tabpanel" aria-labelledby="places-tab">...</div>
-                <div class="tab-pane" id="visual-artwork" role="tabpanel" aria-labelledby="visual-artwork-tab">...</div>
+                  </table>
+                </div>
+                <div class="tab-pane fade" id="audio-object" role="tabpanel" aria-labelledby="audio-object-tab">
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">QUESTION</th>
+                        <th scope="col">PREDICATE</th>
+                        <th scope="col">MODEL</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Whats is the title of the item?</td>
+                        <td>dc:title</td>
+                        <td>Dublin Core</td>
+                      </tr>
+                      <tr>
+                        <td>What is the type?</td>
+                        <td>rdf:type</td>
+                        <td>RDF</td>
+                      </tr>
+                      <tr>
+                        <td>What is the genre of the audio recording?</td>
+                        <td>schema:genre</td>
+                        <td>Schema.org</td>
+                      </tr>
+                      <tr>
+                        <td>What is the musical genre of the item?</td>
+                        <td>mo:genre</td>
+                        <td>Music Ontology</td>
+                      </tr>
+                      <tr>
+                        <td>What is the associated media?</td>
+                        <td>schema:associatedMedia</td>
+                        <td>Schema.org</td>
+                      </tr>
+                      <tr>
+                        <td>Which category does the item belong to?</td>
+                        <td>schema:isPartOf</td>
+                        <td>Schema.org</td>
+                      </tr>
+                      <tr>
+                        <td>Which season of episodes does the item belong to?</td>
+                        <td>schema:partOfSeason</td>
+                        <td>Schema.org</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="tab-pane fade" id="written-document" role="tabpanel" aria-labelledby="written-document-tab">
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">QUESTION</th>
+                        <th scope="col">PREDICATE</th>
+                        <th scope="col">MODEL</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Whats is the title of the item?</td>
+                        <td>dc:title</td>
+                        <td>Dublin Core</td>
+                      </tr>
+                      <tr>
+                        <td>What is the type of resource?</td>
+                        <td>rdf:type</td>
+                        <td>RDF</td>
+                      </tr>
+                      <tr>
+                        <td>What is the subject of the item?</td>
+                        <td>dc:subject</td>
+                        <td>Dublin Core</td>
+                      </tr>
+                      <tr>
+                        <td>What is the alternative name of the item?</td>
+                        <td>modsrdf:alternativeName</td>
+                        <td>MODS</td>
+                      </tr>
+                      <tr>
+                        <td>What is the physical description of the item?</td>
+                        <td>modsrdf:physicalDescription</td>
+                        <td>MODS</td>
+                      </tr>
+                      <tr>
+                        <td>What is the type of legislation?</td>
+                        <td>schema:legislationType</td>
+                        <td>Schema.org</td>
+                      </tr>
+                      <tr>
+                        <td>What is the language of the item?</td>
+                        <td>dc:language</td>
+                        <td>Dublin Core</td>
+                      </tr>
+                      <tr>
+                        <td>What are the available languages of the item?</td>
+                        <td>schema:availableLanguage</td>
+                        <td>Schema.org</td>
+                      </tr>
+                      <tr>
+                        <td>What is the genre of the item?</td>
+                        <td>schema:genre</td>
+                        <td>Schema.org</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="tab-pane fade show active" id="event" role="tabpanel" aria-labelledby="event-tab">
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">QUESTION</th>
+                        <th scope="col">PREDICATE</th>
+                        <th scope="col">MODEL</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Which item is influenced by the event?</td>
+                        <td>crm:P15_influenced</td>
+                        <td>CIDOC-CRM</td>
+                      </tr>
+                      <tr>
+                        <td>What has the event as subject?</td>
+                        <td>crm:P129_is_subject_of</td>
+                        <td>CIDOC-CRM</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
-
             </div>
           </div>
           <div class="row mx-auto">
