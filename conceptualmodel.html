@@ -65,7 +65,7 @@
             </div>
         </header>
         <!-- Conceptual Model page -->
-        <section class="about-section text-text-justify">
+        <section class="about-section text-justify">
           <div class="row mx-auto">
             <div class="col-lg-8 mx-auto text-white">
               <p>In our conceptual model, we translate the theoretical model into a higher level of abstraction, that allows us to visually show the relationship between different entities and resources. The existing widely known standards of <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/">DC/DCterms</a> and <a href="http://www.cidoc-crm.org/version/version-7.1">CIDOC-CRM</a> are the most used, together with <a href="https://schema.org/">Schema.org</a>, that proved to be decisive to identify some specific class of items. Other useful employed ontologies were <a href="https://www.iflastandards.info/fr/frbr/frbroo">FRBRoo</a> and <a href="https://www.dbpedia.org/resources/ontology/">DBpedia</a>, mainly used for describing more general aspects, and
@@ -77,8 +77,141 @@
                 <i>When</i>: Date <br>
                 <i>What</i>: Visual artwork, Audio object, Website, Written document, Event </p>
 
-                <p>The <i>"Who"</i>, which involves the concept of "Person" and "Corporate Body", results to be the broader category. The table reflects the reality of the situation, in which the role of governments, institutions and single actors makes the difference. Both the places linked to the production of the items and the building of Tora prison convey in the <i>"Where"</i> category. As for this latter, also <i>"When"</i> mainly depends on the specific release or display date of the objects, like the audios, the artworks and the website. The "Date" class has also the responsibility to show the starting period of the Patrick detention, that has not yet an "endDate". In the <i>"What"</i> section, split into the five macro-categories of the items, we decided to deepen the details that characterized them. </p>
+                <p>The <i>"Who"</i>, which involves the concept of "Person" and "Corporate Body", results to be the broader category. The table reflects the reality of the situation, in which the role of governments, institutions and single actors makes the difference. The places linked to the production of the items and the building of Tora prison enter in the <i>"Where"</i> category. As for the <i>"When"</i>, it mainly depends on the specific release or display date of the objects, like the audios, the artworks and the website. The "Date" class has also the role of marking the starting period of the detention of Patrick Zaki, that has not yet an "endDate". In the <i>"What"</i> section, split into the five macro-categories of the items, we decided to deepen the details that characterized them. </p>
             </div>
+          </div>
+          <div class="">
+            <ul class="nav nav-tabs nav-justified mb-3" id="ex1" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link active"
+                  id="tab-1"
+                  data-mdb-toggle="tab"
+                  href="#tabs-1"
+                  role="tab"
+                  aria-controls="tabs-1"
+                  aria-selected="true"
+                  >People</a
+                >
+              </li>
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link"
+                  id="tab-2"
+                  data-mdb-toggle="tab"
+                  href="#tabs-2"
+                  role="tab"
+                  aria-controls="tabs-2"
+                  aria-selected="false"
+                  >Date</a
+                >
+              </li>
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link"
+                  id="tab-3"
+                  data-mdb-toggle="tab"
+                  href="#tabs-3"
+                  role="tab"
+                  aria-controls="tabs-3"
+                  aria-selected="false"
+                  >Place</a
+                >
+              </li>
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link"
+                  id="tab-4"
+                  data-mdb-toggle="tab"
+                  href="#tabs-4"
+                  role="tab"
+                  aria-controls="tabs-4"
+                  aria-selected="false"
+                  >Place</a
+                >
+              </li>
+            </ul>
+            <!-- Tabs navs -->
+
+            <!-- Tabs content -->
+            <div class="tab-content" id="ex2-content">
+              <div
+                class="tab-pane fade show active"
+                id="tabs-1"
+                role="tabpanel"
+                aria-labelledby="tab-1"
+              >
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+                </table>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tabs-2"
+                role="tabpanel"
+                aria-labelledby="tab-2"
+              >
+                Tab 2 content
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tabs-3"
+                role="tabpanel"
+                aria-labelledby="tab-3"
+              >
+                Tab 3 content
+              </div>
+            </div>
+          </div>
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">Messages</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">Settings</button>
+            </li>
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+            <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+            <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">...</div>
+            <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">...</div>
           </div>
           <div class="row mx-auto">
             <div class="col-lg-10 mx-auto" style="background:white">
