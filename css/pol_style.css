@@ -142,7 +142,8 @@
 }
 .theoretical-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000000 0%, rgb(173, 25, 51) 25%));
+  padding-bottom: 10rem;
+  background: linear-gradient(to bottom, #000000 0%, rgb(173, 25, 51) 25%, rgb(173, 25, 51) 75%, #000000 100%);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
