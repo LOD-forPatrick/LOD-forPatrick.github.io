@@ -149,3 +149,6 @@
   background-attachment: scroll;
   background-size: cover;
 }
+#conceptual text p{
+  margin:bottom:0;
+}
