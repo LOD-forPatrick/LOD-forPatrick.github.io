@@ -140,3 +140,11 @@
 .rdf-section p {
   margin-bottom: 5rem;
 }
+.theoretical-section {
+  padding-top: 10rem;
+  background: linear-gradient(to bottom, #000000 0%, rgb(173, 25, 51) 25%));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
