@@ -136,7 +136,7 @@ table * {
   position: relative;
 }
 table td, table th {
-  padding-left: 8px;
+  padding: 3px 2rem 3px 2rem;
 }
 table thead tr {
   height: 60px;
