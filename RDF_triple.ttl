@@ -93,3 +93,16 @@
   schema:containsPlace dbr:Scorpion_Prison;
   owl:sameAs <https://viaf.org/viaf/7288158915905350000002/>
   crm:P70_is_documented_in :ReportAboutEgyptianSecurity.
+
+:Petition
+  rdf:type <http://purl.org/dc/dcmitype/Text>; #dc:Text
+  dc:title "Petition in support of Mr. Patrick George Zaki";
+  schema:genre "Letter-Petition";
+  dc:subject "Petition appealing", "Release of Patrick George Zaki";
+  dc:creator "Scholars at Risk (Network Italy)", "University of Trento";
+  schema:recipient dbr:Abdel_Fattah_el-Sisi;
+  modsrdf:originInfo <http://vocab.getty.edu/page/tgn/1000080>; #Italy
+  schema:deliveryAddress "Office of the President, Al Ittihadia Palace, Cairo, Arab Republic of Egypt";
+  schema:dateSent "2020-03-19"^^schema:date;
+  schema:url <https://www.scholarsatrisk.org/sections/sar-italy/section-news/petitions-appealing-for-the-release-of-patrick-george-zaki-scholars-at-risk-italy-and-the-university-of-trento-on-the-front-line-to-show-the-support-of-the-academic-community/ >;
+  dc:language dbr:English.
