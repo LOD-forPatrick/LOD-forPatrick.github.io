@@ -1,0 +1,10 @@
+Tora Prison;schema:name;Tora Prison
+Tora Prison;dcterms:spatial;Egypt
+Tora Prison;dcterms:spatial;Cairo
+Tora Prison;rdf:type;prison
+Tora Prison;gndo:biographicalOrHistoricalInformation;"""Tora Prison in the outskirts of Cairo"""
+Tora Prison;skos:related;"Patrick Zaki ; EIPR activists; President Abdel Fattah al-Sisi"
+Tora Prison;dc:creator;English government
+Tora Prison;schema:director;Ministry of Interior of Egypt
+Tora Prison;gndo:dateOfEstablishment;1908
+Tora Prison;schema:containsPlace;Scorpion prison
