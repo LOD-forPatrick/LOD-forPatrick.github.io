@@ -60,6 +60,6 @@
   modsrdf:physicalDescription "color illustrations";
   modsrdf:physicalDescription "27 cm";
   schema:itemLocation "Library of Congress Catalog";
-  schema:url <https://www.hrw.org/report/2016/09/28/we-are-tombs/abuses-egypts-scorpion-prison>
+  schema:url <https://www.hrw.org/report/2016/09/28/we-are-tombs/abuses-egypts-scorpion-prison>;
   dc:language "English and Arabic";
   owl:sameAs <https://www.worldcat.org/title/we-do-unreasonable-things-here-torture-and-national-security-in-al-sisis-egypt/oclc/1030304373&referer=brief_results>.
