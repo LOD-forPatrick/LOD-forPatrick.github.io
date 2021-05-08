@@ -23,6 +23,7 @@
   modsrdf:subject "Fundamental freedoms";
   modsrdf:subject "human rights";
   modsrdf:subject "democracy in general";
+  schema:about 
   modsrdf:geographic "Egypt";
   dc:creator :EuropeanParliament;
   modsrdf:originInfo dbr:Seat_of_the_European_Parliament_in_Strasbourg;
@@ -60,6 +61,7 @@
   schema:url <https://www.hrw.org/report/2016/09/28/we-are-tombs/abuses-egypts-scorpion-prison>;
   dc:language "English and Arabic";
   owl:sameAs <https://www.worldcat.org/title/we-are-in-tombs-abuses-in-egypts-scorpion-prison/oclc/962039114&referer=brief_results>.
+
 :ReportAboutEgyptianSecurity
   dc:title "'We do unreasonable things here' : torture and national security in al-Sisi's Egypt.";
   rdf:type  "Written text";
