@@ -25,11 +25,12 @@
   modsrdf:originInfo "Stransbourg";
   dc:date "2020-12-17"^^schema:date;
   modsrdf:physicalDescription "8 pages";
-  edm:dataProvider "Legislative Observatory of European Parliament";
-  rdf:type "Written text";
+  edm:dataProvider <https://www.worldcat.org/title/european-parliament-the-legislative-observatory/oclc/76904475&referer=brief_results>; #Legislative Observatory of European Parliament
+  rdf:type <http://purl.org/dc/dcmitype/Text>; #dc:Text
   schema:legislationType "RSP - Resolution on topical subject";
   schema:legislationType "Urgent debate or resolution";
-  schema:url <https://www.europarl.europa.eu/doceo/document/TA-9-2020-0384_EN.html>
+  schema:url <https://www.europarl.europa.eu/doceo/document/TA-9-2020-0384_EN.html>.
+
 :ReportAboutToraPrison
   dc:title "'We Are in Tombs' : Abuses in Egypt's Scorpion Prison.";
   rdf:type  "Written text";
@@ -43,6 +44,6 @@
   modsrdf:physicalDescription "color illustrations";
   modsrdf:physicalDescription "26 cm";
   schema:itemLocation "Library of Congress Catalog";
-  schema:url <https://www.hrw.org/report/2016/09/28/we-are-tombs/abuses-egypts-scorpion-prison>
+  schema:url <https://www.hrw.org/report/2016/09/28/we-are-tombs/abuses-egypts-scorpion-prison>;
   dc:language "English and Arabic";
-  owl:sameAs <https://www.worldcat.org/title/we-are-in-tombs-abuses-in-egypts-scorpion-prison/oclc/962039114&referer=brief_results>
+  owl:sameAs <https://www.worldcat.org/title/we-are-in-tombs-abuses-in-egypts-scorpion-prison/oclc/962039114&referer=brief_results>.
