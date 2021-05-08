@@ -1,0 +1,15 @@
+
+@base <https://pink-floyd-in-venice.github.io/uri.html>.
+@prefix rdf:
+@prefix dc:
+dcterms:
+dbo:
+schema:
+lido:
+modsrdf:
+gndo:
+crm:
+frbroo:
+premis:
+skos:
+mo:
