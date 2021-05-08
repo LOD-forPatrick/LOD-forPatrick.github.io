@@ -47,3 +47,17 @@
   schema:url <https://www.hrw.org/report/2016/09/28/we-are-tombs/abuses-egypts-scorpion-prison>;
   dc:language "English and Arabic";
   owl:sameAs <https://www.worldcat.org/title/we-are-in-tombs-abuses-in-egypts-scorpion-prison/oclc/962039114&referer=brief_results>.
+:ReportAboutEgyptianSecurity
+  dc:title "'We do unreasonable things here' : torture and national security in al-Sisi's Egypt.";
+  rdf:type  "Written text";
+  dc:subject "Crimes and injustices in al-Sisi's Egypt";
+  dc:creator :HumanRightsWatch;
+  modsrfd:originInfo "New York, N.Y.";
+  modsrdf:dateIssued "September 5th 2017";
+  modsrdf:physicalDescription "73 pages"; 
+  modsrdf:physicalDescription "color illustrations";
+  modsrdf:physicalDescription "27 cm";
+  schema:itemLocation "Library of Congress Catalog";
+  schema:url <https://www.hrw.org/report/2016/09/28/we-are-tombs/abuses-egypts-scorpion-prison>
+  dc:language "English and Arabic";
+  owl:sameAs <https://www.worldcat.org/title/we-do-unreasonable-things-here-torture-and-national-security-in-al-sisis-egypt/oclc/1030304373&referer=brief_results>.
