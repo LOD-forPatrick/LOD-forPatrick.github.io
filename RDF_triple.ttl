@@ -23,8 +23,8 @@
   modsrdf:subject "Fundamental freedoms";
   modsrdf:subject "human rights";
   modsrdf:subject "democracy in general";
-  schema:about 
-  modsrdf:geographic "Egypt";
+  schema:about <https://viaf.org/viaf/136270072/#Egyptian_Initiative_for_Personal_Rights>; #EIPR
+  modsrdf:geographic <http://vocab.getty.edu/page/tgn/7016833>; # Egypt;
   dc:creator :EuropeanParliament;
   modsrdf:originInfo dbr:Seat_of_the_European_Parliament_in_Strasbourg;
   dc:date "2020-12-17"^^schema:date;
@@ -84,7 +84,7 @@
   dcterms:spatial <http://vocab.getty.edu/page/tgn/1001091>; # Cairo
   gndo:biographicalOrHistoricalInformation "Tora Prison, in the outskirts of Cairo";
   skos:related :PatrickZaki;
-  skos:related <https://viaf.org/viaf/136270072/#Egyptian_Initiative_for_Personal_Rights>;
+  skos:related <https://viaf.org/viaf/136270072/#Egyptian_Initiative_for_Personal_Rights>; #EIPR
   skos:related dbr:Abdel_Fattah_el-Sisi;
   schema:director dbr:Interior_Ministry_of_Egypt;
   gndo:dateOfEstablishment "1908"^^schema:date;
