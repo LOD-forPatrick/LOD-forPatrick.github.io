@@ -14,3 +14,19 @@
 @prefix mo: <http://purl.org/ontology/mo/>.
 @prefix foaf: <//xmlns.com/foaf/0.1/>.
 
+:EuropeanResolution
+  dc:title "Resolution on the deteriorating situation of human rights in Egypt, in particular the case of the activists of the Egyptian Initiative for Personal Rights (EIPR)";
+  modsrdf:alternativeName "2020/2912(RSP)";
+  modsrdf:subject "Fundamental freedoms";
+  modsrdf:subject "human rights";
+  modsrdf:subject "democracy in general";
+  modsrdf:geographic "Egypt";
+  dc:creator :EuropeanParliament;
+  modsrdf:originInfo "Stransbourg";
+  dc:date "2020-12-17"^^schema:date;
+  modsrdf:physicalDescription "8 pages";
+  edm:dataProvider "Legislative Observatory of European Parliament";
+  rdf:type "Written text";
+  schema:legislationType "RSP - Resolution on topical subject";
+  schema:legislationType "Urgent debate or resolution";
+  schema:url <https://www.europarl.europa.eu/doceo/document/TA-9-2020-0384_EN.html>
