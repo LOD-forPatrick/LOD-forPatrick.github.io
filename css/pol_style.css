@@ -149,3 +149,9 @@
   background-attachment: scroll;
   background-size: cover;
 }
+#conceptualtext p{
+  margin-bottom: 1em;
+}
+#conceptualtext {
+  background:url("../assets/img/zaki-un-anno.png");
+}
