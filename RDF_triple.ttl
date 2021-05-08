@@ -21,7 +21,7 @@
   dc:title "Resolution on the deteriorating situation of human rights in Egypt, in particular the case of the activists of the Egyptian Initiative for Personal Rights (EIPR)";
   modsrdf:alternativeName "2020/2912(RSP)";
   modsrdf:subject "Fundamental freedoms";
-  modsrdf:subject "human rights";
+  modsrdf:subject dbr:Human_rights;
   modsrdf:subject "democracy in general";
   schema:about <https://viaf.org/viaf/136270072/#Egyptian_Initiative_for_Personal_Rights>; #EIPR
   modsrdf:geographic <http://vocab.getty.edu/page/tgn/7016833>; # Egypt;
@@ -50,7 +50,7 @@
   rdf:type  <http://purl.org/dc/dcmitype/Text>;
   dc:subject "Abuses and crimes in Tora Prison in Egypt";
   dc:subject "Political prisoners";
-  dc:subject "Human rights";
+  dc:subject dbr:Human_rights;
   dc:creator :HumanRightsWatch;
   modsrfd:originInfo "New York, N.Y.";
   modsrdf:dateIssued "2016-09-28"^^schema:date;
