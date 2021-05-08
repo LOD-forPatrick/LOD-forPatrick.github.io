@@ -1,15 +1,17 @@
 
-@base <https://pink-floyd-in-venice.github.io/uri.html>.
-@prefix rdf:
-@prefix dc:
-dcterms:
-dbo:
-schema:
-lido:
-modsrdf:
-gndo:
-crm:
-frbroo:
-premis:
-skos:
-mo:
+@base <https://patrickaloud.github.io/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+@prefix dc: <http://purl.org/dc/elements/1.1/>
+@prefix dcterms: <http://purl.org/dc/terms/>
+@prefix dbo: <http://dbpedia.org/ontology/>
+@prefix schema: <http://schema.org/>
+@prefix lido: <http://www.lido-schema.org/>
+@prefix modsrdf: <https://www.loc.gov/standards/mods/rdf/v1/#>
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#>
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>
+@prefix frbroo: <https://www.iflastandards.info/fr/frbr/frbroo#>
+@prefix premis: <http://www.loc.gov/premis/rdf/v1#>
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>
+@prefix mo: <http://purl.org/ontology/mo/>
+
+
