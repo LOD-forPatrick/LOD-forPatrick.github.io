@@ -76,3 +76,18 @@
   schema:url <https://www.hrw.org/report/2016/09/28/we-are-tombs/abuses-egypts-scorpion-prison>;
   dc:language "English and Arabic";
   owl:sameAs <https://www.worldcat.org/title/we-do-unreasonable-things-here-torture-and-national-security-in-al-sisis-egypt/oclc/1030304373&referer=brief_results>.
+
+:ToraPrison
+  rdf:type "Prison";
+  schema:name "Tora Prison";
+  dcterms:spatial <http://vocab.getty.edu/page/tgn/7016833>; # Egypt
+  dcterms:spatial <http://vocab.getty.edu/page/tgn/1001091>; # Cairo
+  gndo:biographicalOrHistoricalInformation "Tora Prison, in the outskirts of Cairo";
+  skos:related :PatrickZaki;
+  skos:related <https://viaf.org/viaf/136270072/#Egyptian_Initiative_for_Personal_Rights>;
+  skos:related dbr:Abdel_Fattah_el-Sisi;
+  schema:director dbr:Interior_Ministry_of_Egypt;
+  gndo:dateOfEstablishment "1908"^^schema:date;
+  schema:containsPlace dbr:Scorpion_Prison;
+  owl:sameAs <https://viaf.org/viaf/7288158915905350000002/>
+  crm:P70_is_documented_in :ReportAboutEgyptianSecurity.
