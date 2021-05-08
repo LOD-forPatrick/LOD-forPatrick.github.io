@@ -42,18 +42,18 @@
   dbo:location dbr:Seat_of_the_European_Parliament_in_Strasbourg;
   dbo:legislativePeriodName	"Ninth European Parliament";
   dbp:constitution dbr:Treaties_of_the_European_Union;  
-  dbp:foundation "1952-09-10"^^schema.date;
+  dbp:foundation "1952-09-10"^^schema:date;
   owl:sameAs <http://viaf.org/viaf/173022063>, <https://dbpedia.org/page/European_Parliament>.
 
 :ReportAboutToraPrison
   dc:title "'We Are in Tombs' : Abuses in Egypt's Scorpion Prison.";
-  rdf:type  "Written text";
+  rdf:type  <http://purl.org/dc/dcmitype/Text>;
   dc:subject "Abuses and crimes in Tora Prison in Egypt";
   dc:subject "Political prisoners";
   dc:subject "Human rights";
   dc:creator :HumanRightsWatch;
   modsrfd:originInfo "New York, N.Y.";
-  modsrdf:dateIssued "September 28th 2016";
+  modsrdf:dateIssued "2016-09-28"^^schema:date;
   modsrdf:physicalDescription "80 pages"; 
   modsrdf:physicalDescription "color illustrations";
   modsrdf:physicalDescription "26 cm";
@@ -64,11 +64,11 @@
 
 :ReportAboutEgyptianSecurity
   dc:title "'We do unreasonable things here' : torture and national security in al-Sisi's Egypt.";
-  rdf:type  "Written text";
+  rdf:type  <http://purl.org/dc/dcmitype/Text>;
   dc:subject "Crimes and injustices in al-Sisi's Egypt";
   dc:creator :HumanRightsWatch;
   modsrfd:originInfo "New York, N.Y.";
-  modsrdf:dateIssued "September 5th 2017";
+  modsrdf:dateIssued 2017-09-05"^^schema:date;
   modsrdf:physicalDescription "73 pages"; 
   modsrdf:physicalDescription "color illustrations";
   modsrdf:physicalDescription "27 cm";
