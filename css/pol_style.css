@@ -29,7 +29,7 @@
 
 #carousel {
   position: relative;
-  height: 630px;
+  height: 810px;
   top: 50%;
   overflow: hidden;
 }
@@ -154,4 +154,5 @@
 }
 #conceptualtext {
   background:url("../assets/img/collage Zaki, un anno.jpg");
+  background-repeat: no-repeat;
 }
