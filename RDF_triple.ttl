@@ -50,6 +50,7 @@
   rdf:type  <http://purl.org/dc/dcmitype/Text>;
   dc:subject "Abuses and crimes in Tora Prison in Egypt";
   dc:subject "Political prisoners";
+  skos:related "Al-Sisi's Government";
   dc:subject dbr:Human_rights;
   dc:creator :HumanRightsWatch;
   modsrfd:originInfo "New York, N.Y.";
@@ -66,6 +67,7 @@
   dc:title "'We do unreasonable things here' : torture and national security in al-Sisi's Egypt.";
   rdf:type  <http://purl.org/dc/dcmitype/Text>;
   dc:subject "Crimes and injustices in al-Sisi's Egypt";
+  skos:related "Al-Sisi's Government";
   dc:creator :HumanRightsWatch;
   modsrfd:originInfo "New York, N.Y.";
   modsrdf:dateIssued 2017-09-05"^^schema:date;
