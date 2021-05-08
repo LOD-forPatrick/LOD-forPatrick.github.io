@@ -1,0 +1,14 @@
+murales;dc:title;"""L'abbraccio"""
+murales;dcterms:spatial;Italy
+murales;dcterms:spatial;"Roma; Bologna"
+murales;dcterms:spatial;"Via Salaria (RO); Via XX Ottobre 1944 (BO)"
+murales;rdf:type;murales
+murales;schema:genre;Street art
+murales;crm:P62_depicts;"Patrick Zaki ; Giulio Regeni"
+murales;dc:creator;Laika
+murales;lido:inscriptionTranscription;"""Questa volta andrà tutto bene« ; ""Liberty"" in arabic"
+murales;lido:displayDate;"10-11 February 2020 (Roma) ;05 October 2020 (Bologna)"
+murales;dc:subject;"Freedom; Patrick Zaki; Giulio Regeni; Human Rights"
+murales;dc:language;"Italian; Arabic"
+murales;schema:locationCreated;Roma
+murales;schema:surface;Wall
