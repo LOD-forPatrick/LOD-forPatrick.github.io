@@ -145,6 +145,9 @@ table thead tr {
 table tbody tr {
   height: 50px;
 }
+#rdfttl table tbody tr{
+  height:auto;
+}
 table tbody tr:last-child {
   border: 0;
 }
