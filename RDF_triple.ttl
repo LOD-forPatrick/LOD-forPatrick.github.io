@@ -1,4 +1,4 @@
-@base : <https://patrickaloud.github.io/>.
+@base <https://patrickaloud.github.io/>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix dcterms: <http://purl.org/dc/terms/>.
@@ -17,15 +17,15 @@
 @prefix foaf: <//xmlns.com/foaf/0.1/>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 
-:ReportAboutToraPrison
+<ReportAboutToraPrison>
   dc:title "'We Are in Tombs' : Abuses in Egypt's Scorpion Prison.";
   rdf:type  <http://purl.org/dc/dcmitype/Text>;
   dc:subject "Abuses and crimes in Tora Prison in Egypt";
   dc:subject "Political prisoners";
-  skos:related :GovernmentAlSisi;
+  skos:related <GovernmentAlSisi>;
   dc:subject dbr:Human_rights;
-  dc:creator :HumanRightsWatch;
-  modsrfd:originInfo "New York, N.Y.";
+  dc:creator <HumanRightsWatch>;
+  modsrdf:originInfo "New York, N.Y.";
   modsrdf:dateIssued "2016-09-28"^^schema:date;
   modsrdf:physicalDescription "80 pages"; 
   modsrdf:physicalDescription "color illustrations";
@@ -35,13 +35,13 @@
   dc:language "English and Arabic";
   owl:sameAs <https://www.worldcat.org/title/we-are-in-tombs-abuses-in-egypts-scorpion-prison/oclc/962039114&referer=brief_results>.
 
-:ReportAboutEgyptianSecurity
+<ReportAboutEgyptianSecurity>
   dc:title "'We do unreasonable things here' : torture and national security in al-Sisi's Egypt.";
   rdf:type  <http://purl.org/dc/dcmitype/Text>;
   dc:subject "Crimes and injustices in al-Sisi's Egypt";
-  skos:related :GovernmentAlSisi";
-  dc:creator :HumanRightsWatch;
-  modsrfd:originInfo "New York, N.Y.";
+  skos:related <GovernmentAlSisi>;
+  dc:creator <HumanRightsWatch>;
+  modsrdf:originInfo "New York, N.Y.";
   modsrdf:dateIssued 2017-09-05"^^schema:date;
   modsrdf:physicalDescription "73 pages"; 
   modsrdf:physicalDescription "color illustrations";
@@ -51,22 +51,22 @@
   dc:language "English and Arabic";
   owl:sameAs <https://www.worldcat.org/title/we-do-unreasonable-things-here-torture-and-national-security-in-al-sisis-egypt/oclc/1030304373&referer=brief_results>.
 
-:ToraPrison
+<ToraPrison>
   rdf:type "Prison";
   schema:name "Tora Prison";
   dcterms:spatial <http://vocab.getty.edu/page/tgn/7016833>; # Egypt
   dcterms:spatial <http://vocab.getty.edu/page/tgn/1001091>; # Cairo
   gndo:biographicalOrHistoricalInformation "Tora Prison, in the outskirts of Cairo";
-  skos:related :PatrickZaki;
+  skos:related <PatrickZaki>;
   skos:related <https://viaf.org/viaf/136270072/#Egyptian_Initiative_for_Personal_Rights>; #EIPR
   skos:related dbr:Abdel_Fattah_el-Sisi;
   schema:director dbr:Interior_Ministry_of_Egypt;
   gndo:dateOfEstablishment "1908"^^schema:date;
   schema:containsPlace dbr:Scorpion_Prison;
   owl:sameAs <https://viaf.org/viaf/7288158915905350000002/>;
-  crm:P70_is_documented_in :ReportAboutEgyptianSecurity.
+  crm:P70_is_documented_in <ReportAboutEgyptianSecurity>.
 
-:Petition
+<Petition>
   rdf:type <http://purl.org/dc/dcmitype/Text>; #dc:Text
   dc:title "Petition in support of Mr. Patrick George Zaki";
   schema:genre "Letter-Petition";
@@ -79,7 +79,7 @@
   schema:url <https://www.scholarsatrisk.org/sections/sar-italy/section-news/petitions-appealing-for-the-release-of-patrick-george-zaki-scholars-at-risk-italy-and-the-university-of-trento-on-the-front-line-to-show-the-support-of-the-academic-community/ >;
   dc:language dbr:English.
 
-:EuropeanResolution
+<EuropeanResolution>
   dc:title "Resolution on the deteriorating situation of human rights in Egypt, in particular the case of the activists of the Egyptian Initiative for Personal Rights (EIPR)";
   modsrdf:alternativeName "2020/2912(RSP)";
   modsrdf:subject "Fundamental freedoms";
@@ -87,8 +87,8 @@
   modsrdf:subject "democracy in general";
   schema:about <https://viaf.org/viaf/136270072/#Egyptian_Initiative_for_Personal_Rights>; #EIPR
   modsrdf:geographic <http://vocab.getty.edu/page/tgn/7016833>; # Egypt;
-  skos:related :GovernmentAlSisi;
-  dc:creator :EuropeanParliament;
+  skos:related <GovernmentAlSisi>;
+  dc:creator <EuropeanParliament>;
   modsrdf:originInfo dbr:Seat_of_the_European_Parliament_in_Strasbourg;
   dc:date "2020-12-17"^^schema:date;
   modsrdf:physicalDescription "8 pages";
@@ -98,7 +98,7 @@
   schema:legislationType "Urgent debate or resolution";
   schema:url <https://www.europarl.europa.eu/doceo/document/TA-9-2020-0384_EN.html>.
 
-:EuropeanParliament
+<EuropeanParliament>
   rdfs:label "European Parliament";
   dbo:leader dbr:David_Sassoli;
   dbo:location dbr:France;
@@ -108,5 +108,5 @@
   dbp:foundation "1952-09-10"^^schema:date;
   owl:sameAs <http://viaf.org/viaf/173022063>, <https://dbpedia.org/page/European_Parliament>.
 
-:GovernmentAlSisi
+<GovernmentAlSisi>
 
