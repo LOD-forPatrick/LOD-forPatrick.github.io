@@ -27,7 +27,7 @@
   skos:related <GovernmentAlSisi>;
   dc:subject dbr:Human_rights;
   dc:creator <HumanRightsWatch>;
-  modsrdf:originInfo "New York, N.Y.";
+  modsrdf:originInfo <http://vocab.getty.edu/page/tgn/7007567>; #NYC state of New York
   modsrdf:dateIssued "2016-09-28"^^schema:date;
   modsrdf:physicalDescription "80 pages"; 
   modsrdf:physicalDescription "color illustrations";
@@ -43,7 +43,7 @@
   dc:subject "Crimes and injustices in al-Sisi's Egypt";
   skos:related <GovernmentAlSisi>;
   dc:creator <HumanRightsWatch>;
-  modsrdf:originInfo "New York, N.Y.";
+  modsrdf:originInfo <http://vocab.getty.edu/page/tgn/7007567>; #NYC state of New York
   modsrdf:dateIssued 2017-09-05"^^schema:date;
   modsrdf:physicalDescription "73 pages"; 
   modsrdf:physicalDescription "color illustrations";
