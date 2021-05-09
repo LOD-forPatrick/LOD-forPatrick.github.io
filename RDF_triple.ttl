@@ -68,6 +68,18 @@
   owl:sameAs <https://viaf.org/viaf/7288158915905350000002/>;
   crm:P70_is_documented_in <ReportAboutEgyptianSecurity>.
 
+<GovernmentAlSisi>
+  premis:startDate "2014-06-08"^^schema.date;
+  dbo:geverningBody dbr:Egypt;
+  schema:governmentType dbr:Semi-presidential_system;
+  dbp:leaderName dbr:Abdel_Fattah_el-Sisi;
+  dbp:primeminister dbr:Mostafa_Madbouly;
+  schema:organizer <https://www.wikidata.org/wiki/Q102509677>; #The detention of Patrick Zaki
+  crm:P11_partecipated_in <https://www.wikidata.org/wiki/Q25174971>; #The murder of Giulio Regeni;
+  crm:P129_is_subject_of <ReportAboutEgyptianSecurity>;
+  skos:related <HumanRightWatch>, <https://viaf.org/viaf/136270072/#Egyptian_Initiative_for_Personal_Rights>; #EIPR
+  dbo:wikiPageWikiLink dbr:2013_Egyptian_coup_d'état. 
+
 <Petition>
   rdf:type <http://purl.org/dc/dcmitype/Text>; #dc:Text
   dc:title "Petition in support of Mr. Patrick George Zaki";
@@ -110,5 +122,4 @@
   dbp:foundation "1952-09-10"^^schema:date;
   owl:sameAs <http://viaf.org/viaf/173022063>, <https://dbpedia.org/page/European_Parliament>.
 
-<GovernmentAlSisi>
 
