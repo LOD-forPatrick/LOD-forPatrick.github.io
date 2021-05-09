@@ -16,6 +16,7 @@
 @prefix mo: <http://purl.org/ontology/mo/>.
 @prefix foaf: <//xmlns.com/foaf/0.1/>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 
 <ReportAboutToraPrison>
   dc:title "'We Are in Tombs' : Abuses in Egypt's Scorpion Prison.";
