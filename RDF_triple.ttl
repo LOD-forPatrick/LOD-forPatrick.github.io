@@ -72,7 +72,7 @@
   crm:P70_is_documented_in <ReportAboutToraPrison>.
 
 <GovernmentAlSisi>
-  premis:startDate "2014-06-08"^^schema.date;
+  premis:startDate "2014-06-08"^^schema:date;
   dbo:geverningBody dbr:Egypt;
   schema:governmentType dbr:Semi-presidential_system;
   dbp:leaderName dbr:Abdel_Fattah_el-Sisi;
@@ -81,7 +81,7 @@
   crm:P11_partecipated_in <https://www.wikidata.org/wiki/Q25174971>; #The murder of Giulio Regeni;
   crm:P129_is_subject_of <ReportAboutEgyptianSecurity>;
   skos:related <https://viaf.org/viaf/136270072/#Egyptian_Initiative_for_Personal_Rights>; #EIPR
-  dbo:wikiPageWikiLink dbr:2013_Egyptian_coup_d'état. 
+  dbo:wikiPageWikiLink dbr:2013_Egyptian_coup. 
 
 <Petition>
   rdf:type <http://purl.org/dc/dcmitype/Text>; #dc:Text
