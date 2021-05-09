@@ -44,7 +44,7 @@
   skos:related <GovernmentAlSisi>;
   dc:creator <HumanRightsWatch>;
   modsrdf:originInfo <http://vocab.getty.edu/page/tgn/7007567>; #NYC state of New York
-  modsrdf:dateIssued 2017-09-05"^^schema:date;
+  modsrdf:dateIssued "2017-09-05"^^schema:date;
   modsrdf:physicalDescription "73 pages"; 
   modsrdf:physicalDescription "color illustrations";
   modsrdf:physicalDescription "27 cm";
