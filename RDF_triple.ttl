@@ -77,7 +77,7 @@
   schema:organizer <https://www.wikidata.org/wiki/Q102509677>; #The detention of Patrick Zaki
   crm:P11_partecipated_in <https://www.wikidata.org/wiki/Q25174971>; #The murder of Giulio Regeni;
   crm:P129_is_subject_of <ReportAboutEgyptianSecurity>;
-  skos:related <HumanRightWatch>, <https://viaf.org/viaf/136270072/#Egyptian_Initiative_for_Personal_Rights>; #EIPR
+  skos:related <https://viaf.org/viaf/136270072/#Egyptian_Initiative_for_Personal_Rights>; #EIPR
   dbo:wikiPageWikiLink dbr:2013_Egyptian_coup_d'état. 
 
 <Petition>
@@ -122,4 +122,10 @@
   dbp:foundation "1952-09-10"^^schema:date;
   owl:sameAs <http://viaf.org/viaf/173022063>, <https://dbpedia.org/page/European_Parliament>.
 
-
+<HumanRightsWatch> 
+  rdf:type schema:Organization;
+  foaf:isPrimaryTopicOf wikipedia-en:Human_Rights_Watch; 
+  dct:subject "Organizations established in 1978"; 
+  foaf:homepage <https://www.hrw.org/>; 
+  owl:sameAs <https://www.wikidata.org/wiki/Q187052>; # human rights watch 
+  owl:sameAs dbr:Human_Rights_Watch.
