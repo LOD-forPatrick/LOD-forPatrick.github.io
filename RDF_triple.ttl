@@ -18,6 +18,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix owl: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix edm: <http://www.europeana.eu/schemas/edm/>.
+@prefix person: <http://www.w3.org/ns/person#>.
 
 <ReportAboutToraPrison>
   dc:title "'We Are in Tombs' : Abuses in Egypt's Scorpion Prison.";
@@ -27,7 +28,7 @@
   skos:related <GovernmentAlSisi>;
   dc:subject dbr:Human_rights;
   dc:creator <HumanRightsWatch>;
-  modsrdf:originInfo "New York, N.Y.";
+  modsrdf:originInfo <http://vocab.getty.edu/page/tgn/7007567>; #NYC state of New York
   modsrdf:dateIssued "2016-09-28"^^schema:date;
   modsrdf:physicalDescription "80 pages"; 
   modsrdf:physicalDescription "color illustrations";
@@ -43,8 +44,8 @@
   dc:subject "Crimes and injustices in al-Sisi's Egypt";
   skos:related <GovernmentAlSisi>;
   dc:creator <HumanRightsWatch>;
-  modsrdf:originInfo "New York, N.Y.";
-  modsrdf:dateIssued 2017-09-05"^^schema:date;
+  modsrdf:originInfo <http://vocab.getty.edu/page/tgn/7007567>; #NYC state of New York
+  modsrdf:dateIssued "2017-09-05"^^schema:date;
   modsrdf:physicalDescription "73 pages"; 
   modsrdf:physicalDescription "color illustrations";
   modsrdf:physicalDescription "27 cm";
@@ -67,6 +68,18 @@
   schema:containsPlace dbr:Scorpion_Prison;
   owl:sameAs <https://viaf.org/viaf/7288158915905350000002/>;
   crm:P70_is_documented_in <ReportAboutEgyptianSecurity>.
+
+<GovernmentAlSisi>
+  premis:startDate "2014-06-08"^^schema.date;
+  dbo:geverningBody dbr:Egypt;
+  schema:governmentType dbr:Semi-presidential_system;
+  dbp:leaderName dbr:Abdel_Fattah_el-Sisi;
+  dbp:primeminister dbr:Mostafa_Madbouly;
+  schema:organizer <https://www.wikidata.org/wiki/Q102509677>; #The detention of Patrick Zaki
+  crm:P11_partecipated_in <https://www.wikidata.org/wiki/Q25174971>; #The murder of Giulio Regeni;
+  crm:P129_is_subject_of <ReportAboutEgyptianSecurity>;
+  skos:related <https://viaf.org/viaf/136270072/#Egyptian_Initiative_for_Personal_Rights>; #EIPR
+  dbo:wikiPageWikiLink dbr:2013_Egyptian_coup_d'état. 
 
 <Petition>
   rdf:type <http://purl.org/dc/dcmitype/Text>; #dc:Text
@@ -110,5 +123,10 @@
   dbp:foundation "1952-09-10"^^schema:date;
   owl:sameAs <http://viaf.org/viaf/173022063>, <https://dbpedia.org/page/European_Parliament>.
 
-<GovernmentAlSisi>
-
+<HumanRightsWatch> 
+  rdf:type schema:Organization;
+  foaf:isPrimaryTopicOf wikipedia-en:Human_Rights_Watch; 
+  dct:subject "Organizations established in 1978"; 
+  foaf:homepage <https://www.hrw.org/>; 
+  owl:sameAs <https://www.wikidata.org/wiki/Q187052>; # human rights watch 
+  owl:sameAs dbr:Human_Rights_Watch.
