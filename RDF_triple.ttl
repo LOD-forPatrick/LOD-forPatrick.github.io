@@ -6,14 +6,11 @@
 @prefix dbr: <http://dbpedia.org/resource/>.
 @prefix dbp: <https://dbpedia.org/property/>.
 @prefix schema: <http://schema.org/>.
-@prefix lido: <http://www.lido-schema.org/>.
 @prefix modsrdf: <https://www.loc.gov/standards/mods/rdf/v1/#>.
 @prefix gndo: <https://d-nb.info/standards/elementset/gnd#>.
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
-@prefix frbroo: <https://www.iflastandards.info/fr/frbr/frbroo#>.
 @prefix premis: <http://www.loc.gov/premis/rdf/v1#>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
-@prefix mo: <http://purl.org/ontology/mo/>.
 @prefix foaf: <//xmlns.com/foaf/0.1/>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix owl: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
