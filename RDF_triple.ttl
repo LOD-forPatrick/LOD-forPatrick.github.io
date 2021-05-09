@@ -57,6 +57,7 @@
 <ToraPrison>
   rdf:type "Prison";
   schema:name "Tora Prison";
+  foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Tora_Prison>;
   dcterms:spatial <http://vocab.getty.edu/page/tgn/7016833>; # Egypt
   dcterms:spatial <http://vocab.getty.edu/page/tgn/1001091>; # Cairo
   gndo:biographicalOrHistoricalInformation "Tora Prison, in the outskirts of Cairo";
@@ -67,7 +68,7 @@
   gndo:dateOfEstablishment "1908"^^schema:date;
   schema:containsPlace dbr:Scorpion_Prison;
   owl:sameAs <https://viaf.org/viaf/7288158915905350000002/>;
-  crm:P70_is_documented_in <ReportAboutEgyptianSecurity>.
+  crm:P70_is_documented_in <ReportAboutToraPrison>.
 
 <GovernmentAlSisi>
   premis:startDate "2014-06-08"^^schema.date;
@@ -85,13 +86,13 @@
   rdf:type <http://purl.org/dc/dcmitype/Text>; #dc:Text
   dc:title "Petition in support of Mr. Patrick George Zaki";
   schema:genre "Letter-Petition";
-  dc:subject "Petition appealing", "Release of Patrick George Zaki";
-  dc:creator "Scholars at Risk (Network Italy)", "University of Trento";
-  schema:recipient dbr:Abdel_Fattah_el-Sisi;
+  dc:subject "Petition appealing", <PatrickZaki>;
+  dc:creator <ScholarsAtRiskItaly>, "University of Trento";
+  schema:recipient dbr:Abdel_Fattah_el-Sisi, <GovermentAlSisi>;
   modsrdf:originInfo <http://vocab.getty.edu/page/tgn/1000080>; #Italy
   schema:deliveryAddress "Office of the President, Al Ittihadia Palace, Cairo, Arab Republic of Egypt";
   schema:dateSent "2020-03-19"^^schema:date;
-  schema:url <https://www.scholarsatrisk.org/sections/sar-italy/section-news/petitions-appealing-for-the-release-of-patrick-george-zaki-scholars-at-risk-italy-and-the-university-of-trento-on-the-front-line-to-show-the-support-of-the-academic-community/ >;
+  schema:url "https://www.scholarsatrisk.org/sections/sar-italy/section-news/petitions-appealing for-the-release-of-patrick-george-zaki-scholars-at-risk-italy-and-the-university-of-trento-on-the-front-line-to-show-the-support-of-the-academic-community/";
   dc:language dbr:English.
 
 <EuropeanResolution>
@@ -130,3 +131,18 @@
   foaf:homepage <https://www.hrw.org/>; 
   owl:sameAs <https://www.wikidata.org/wiki/Q187052>; # human rights watch 
   owl:sameAs dbr:Human_Rights_Watch.
+
+<ScholarsAtRiskItaly>
+  rdfs:label "SAR Italy";
+  schema:parentOrganization dbr:Scholars_at_Risk;
+  rdf:type <https://www.wikidata.org/wiki/Q1194093>; #international non-governmental organization
+  dbp:foundation "2019-02-19"^^schema:date.
+
+<PatrickZaki>
+  rdf:type foaf:Person;
+  foaf:name "Patrick George Zaki";
+  schema:birthDate "1991-06-16"^^schema:date;
+  person:citizenship "Egyptian";
+  foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Detention_of_Patrick_Zaki>;
+  schema:member <https://viaf.org/viaf/136270072/#Egyptian_Initiative_for_Personal_Rights>;
+  dbo:education "Master GEMMA".
