@@ -127,8 +127,8 @@
 
 <HumanRightsWatch> 
   rdf:type schema:Organization;
-  foaf:isPrimaryTopicOf wikipedia-en:Human_Rights_Watch; 
-  dct:subject "Organizations established in 1978"; 
+  foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Human_Rights_Watch>; 
+  dc:subject "Organizations established in 1978"; 
   foaf:homepage <https://www.hrw.org/>; 
   owl:sameAs <https://www.wikidata.org/wiki/Q187052>; # human rights watch 
   owl:sameAs dbr:Human_Rights_Watch.
